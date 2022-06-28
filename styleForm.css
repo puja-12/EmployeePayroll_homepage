@@ -4,14 +4,7 @@
     padding:0;
     box-sizing: border-box;
 }
-.main{
-    display: flex;
-    flex-direction: column;
-    min-height: calc(100vh-80px);
-    background-color: #f7f7f7;
-    padding: 30px 0 10px;
-    box-sizing:  border-box;
-}
+
 
 .header{
 width: 100%;
@@ -198,42 +191,3 @@ margin-left: 80px;
 width: 80%;
 
 }
-.add-button{
-font: normal;
-letter-spacing: 0px;
-color: #ffffff;
-opacity: 1;
-background: #82a70c 0% 0% no-repeat padding-box;
-border:  none;
-border-radius: 4px;
-padding: 4px 10px ;
-margin-top: 20px;
-margin-right: 30px;
-cursor: pointer;
-text-decoration: none;
-width: 100px;
-height: 25px;
-
-
-}
-.header-content{
-display: flex;
-width: 100%;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-margin: auto;
-height: 50px;
-padding-bottom: 25px;
-}
-
-.emp-detail-text{
-text-transform: capitalize;
-letter-spacing: 0px;
-color: #42515f;
-opacity: 1;
-margin-top: 20px;
-margin-left: 40px;
-font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
